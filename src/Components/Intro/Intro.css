@@ -1,0 +1,121 @@
+.intro {
+  display: flex;
+  height: 77vh;
+  margin-top:6rem;
+}
+.i-left{
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.i-name{
+  display: flex;
+  flex-direction: column;
+}
+
+.i-name>:nth-child(1){
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.i-name>:nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.i-name>:nth-child(3) {
+  color: var(--gray);
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.i-button{
+  width: 6rem;
+  height: 2rem;
+}
+
+.i-icons{
+  margin-top: 3rem;
+  display: flex;
+  gap: 0rem;
+}
+.i-icons>*{
+  transform: scale(0.6);
+}
+
+.i-icons>*:hover {
+  cursor: pointer;
+
+}
+
+.i-right{
+  flex: 1;
+  position: relative;
+}
+
+.i-right>* {
+  position: absolute;
+  z-index: 1;
+}
+
+.i-right>:nth-child(1){
+  transform: scale(.69);
+  left: 0%;
+  top:-9%
+}
+
+.i-right>:nth-child(2) {
+  transform: scale(.67);
+  left: -0rem;
+  top: -4.6rem;
+}
+.i-right>:nth-child(3) {
+  height: 439px;
+  left: 20%;
+  top: 3%;
+  border-radius: 10% 10% 63% 17% / 10% 10% 26% 0%;
+}
+.i-right>:nth-child(4) {
+  transform: scale(0.7);
+  left: -9%;
+  top: -17%;
+  border-radius: 50%;
+  padding: 0;
+}
+.webdevdiv{
+  top: -4%;
+  left: 58%;
+}
+.criticaldiv{
+  top: 18.4rem;
+  left: 3rem;
+}
+
+.blur-purple{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff ;
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
+}
+.blur-blue {
+  position: absolute;
+  width: 21rem;
+  height: 11rem;
+  border-radius: 50%;
+  background: #c1f5ff;
+  z-index: -9;
+  top: 17rem;
+  left:-9rem;
+  filter: blur(72px);
+}

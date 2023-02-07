@@ -1,0 +1,61 @@
+.skills{
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 90vh;
+  margin-bottom: 13rem;
+  margin-top: 9rem;
+
+}
+
+.awesome {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  position: relative;
+}
+
+.awesome>:nth-child(1){
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.awesome>:nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome>:nth-child(3) {
+  color: var(--gray);
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.s-button {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+.cards{
+  display: flex;
+  flex:2;
+}
+.col{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.col>:nth-child(1){
+  height: 75px;
+  width: 75px;
+}
+.col>:nth-child(2) {
+  height: 150px;
+}
+.col>:nth-child(3) {
+  height: 75px;
+  width: 75px;
+}
